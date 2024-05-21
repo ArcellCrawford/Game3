@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="25" tilewidth="18" tileheight="18" infinite="0" nextlayerid="3" nextobjectid="47">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="48" height="25" tilewidth="18" tileheight="18" infinite="0" nextlayerid="6" nextobjectid="54">
  <editorsettings>
   <export target="platformer-level-1.tmj" format="json"/>
  </editorsettings>
@@ -235,4 +235,17 @@
 123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,123,124,63,63,63,63,63,63,122,123,123,123,123,123,123,123,123,123,124,74,74,74,74
 </data>
  </layer>
+ <objectgroup id="3" name="Objects">
+  <object id="47" name="Coin" gid="152" x="437.316" y="281.842" width="18" height="18"/>
+  <object id="48" name="Coin" gid="152" x="301.947" y="347.789" width="18" height="18"/>
+  <object id="49" name="Coin" gid="152" x="289.105" y="190.895" width="18" height="18"/>
+  <object id="50" name="Coin" gid="152" x="220.053" y="270.053" width="18" height="18"/>
+  <object id="51" name="Coin" gid="152" x="74.9211" y="343.526" width="18" height="18"/>
+ </objectgroup>
+ <objectgroup id="4" name="Spawnpoint">
+  <object id="52" name="Spawn" gid="146" x="3.5" y="358" width="38" height="38"/>
+ </objectgroup>
+ <objectgroup id="5" name="Powerup">
+  <object id="53" name="Jumpshroom" gid="129" x="124.5" y="360" width="18" height="18"/>
+ </objectgroup>
 </map>
